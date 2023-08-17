@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media screen and (max-width:711px) and (min-width:44px) {
+  #cf div h6,
+  #cf div p {
+      display: none;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+.nav-item a:hover {
+  color: white;
+  border-radius: 15px;
+  transition: 0.4s;
+}
+
+a .bi-person:hover {
+  transition: 0.5s;
+}
+
+#dropdown1 {
+  color: white;
+  display: block;
+  padding: 3px 22px;
+  text-decoration: none;
+}
+
+#dropdown1:hover {
+  color: #ffc107;
+  border-radius: 15px;
+  background-color: white;
+  transition: 0.7s;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #ffc107;
+  color: white;
+  transition: 0.7s;
+}
+
+#faq:hover {
+  transition: 0.5s;
+}
+
+.gimg :hover {
+  opacity: 0;
+}
+
+.c :hover {
+  background-color: #ffc107;
+  transition: 1s;
+}
