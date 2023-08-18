@@ -67,3 +67,10 @@ a .bi-person:hover {
   background-color: #ffc107;
   transition: 1s;
 }
+#about{
+  background-color:  #ffca84
+}
+#aboutBtn{
+  transition: 0.8s;
+  border: 1px solid  #ffca84;
+}

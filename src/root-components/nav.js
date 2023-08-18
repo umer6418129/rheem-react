@@ -28,7 +28,7 @@ function nav(props) {
                                 </div>
                             </div>
                     </div>
-                </nav><br/>
+                </nav>
         </div>
     )
 }

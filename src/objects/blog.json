@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "title": "Central AC",
+        "createAt": "1/06/2022",
+        "createBy": "Rheem.",
+        "img":"./blog-images/central air.png",
+        "des": "A central air conditioner is a type of a ir conditioning system that cools and dehumidifies the air in a home or building. It consists of an indoor unit and an outdoor unit connected by refrigerant lines."
+
+    },
+    {
+        "id":2,
+        "title": "Ductless/Mini-Split AC",
+        "createAt": "1/06/2022",
+        "createBy": "Rheem.",
+        "img":"./blog-images/ductless banner.png",
+        "des": "ductless or mini-split air conditioner is a type of air conditioning system that does not require ducts to distribute cooled air throughout a home or building"
+
+    },
+    {
+        "id":3,
+        "title": "Floor Mounted",
+        "createAt": "1/06/2022",
+        "createBy": "Rheem.",
+        "img":"./blog-images/floor mounted.png",
+        "des": "Floor mounted air conditioning units are a type of air conditioning system that is installed on the floor of a room or space."
+
+    }
+]
