@@ -14,7 +14,6 @@ function nav(props) {
                                 <ul className=" navbar-nav ms-5 ps-5 me-auto mb-2 mb-lg-0 ">
                                     <li className="nav-item  fw-bold ms-4"><Link to="/home" className="nav-link">HOME</Link></li>
                                     <li className="nav-item fw-bold ms-4"><Link to="/store" className="nav-link">STORE</Link></li>
-                                    <li className="nav-item fw-bold ms-4"><Link to="/gallery" className="nav-link">GALLERY</Link></li>
                                     <li className="nav-item fw-bold ms-4"><Link to="/blog" className="nav-link">BLOG</Link></li>
                                     <li className="nav-item fw-bold ms-4"><Link to="/about" className="nav-link">ABOUT</Link></li>
                                     <li className="nav-item fw-bold ms-4"><Link to="/contact" className="nav-link">CONTACT</Link></li>
