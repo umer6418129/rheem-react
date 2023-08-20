@@ -8,6 +8,7 @@ import Gallery from "./components/Gallery";
 import Blog from "./components/Blog";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Faq from './components/Faq';
 
 
 
@@ -24,6 +25,7 @@ function App() {
           <Route path='/blog' element={<Blog></Blog>}></Route>
           <Route path='/about' element={<About></About>}></Route>
           <Route path='/contact' element={<Contact></Contact>}></Route>
+          <Route path='/faq' element={<Faq></Faq>}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

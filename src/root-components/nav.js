@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom'
 
 function nav(props) {
@@ -21,7 +20,7 @@ function nav(props) {
                                     <li className="nav-item fw-bold ms-4"><Link to="/contact" className="nav-link">CONTACT</Link></li>
                                 </ul>
                                 <div className="d-flex ms-5 ps-5">
-                                    <a href="faq.html" className="nav-link"> <button id="faq" type="submit" className="btn nav-item btn-dark btn-md  btn-outline-light border-dark ">FAQ'S</button></a>
+                                    <Link to="/faq" className="nav-link"> <button id="faq" type="submit" className="btn nav-item btn-dark btn-md  btn-outline-light border-dark ">FAQ'S</button></Link>
                                     <a href="login.html" className="nav-link ms-3">
                                         <button className=" bi bi-person btn btn-dark btn-md btn-outline-light border-dark nav-item"></button>
                                     </a>

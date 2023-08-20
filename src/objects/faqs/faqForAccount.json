@@ -1,0 +1,23 @@
+[
+    {
+
+        "id":1,
+        "question":"How To Register At Rheem ?",
+        "ans":"You can easly to Register at Rheem by following these simple steps: <br /> Click on the “Login/Register link at the top right corner of Rheem website, If you have already account so you need to just login your account but if you're new here so you can click on button of Signup that on the bottom of LogIn form, So after the following instruction you account will be created "
+    },
+    {
+        "id":2,
+        "question":"How Can I Put My Order ?",
+        "ans":"You can easly to Register at Rheem by following these simple steps: <br> Click on the “Login/Register” link at the top right corner of Rheem website, If you have already account so you need to just login your account but if you're new here so you can click on button of Signup that on the bottom of LogIn form, So after the following instruction you account will be created"
+    },
+    {
+        "id":3,
+        "question":"How To Cancel The Order ?",
+        "ans":"You can contact us on 805-278-5300 & store@rheemconnections.com or submit cantact form with your query we will contact with as soon as possible"
+    },
+    {
+        "id":4,
+        "question":"How To Launch A Query ?",
+        "ans":"In contact form we also give comment section, if you have any question you can type your thoughts on comment section & submit we will send answer on your email"
+    }
+]

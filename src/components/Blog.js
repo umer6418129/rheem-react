@@ -6,8 +6,8 @@ function Blog(props) {
   return (
     <div className='mt-3'>
       <div>
-          <img src={require('./../assests/gifs/blogs.gif')} alt="" className='rounded mx-auto d-block img-fluid w-75 ' />
-        </div>
+        <img src={require('./../assests/gifs/blogs.gif')} alt="" className='rounded mx-auto d-block img-fluid w-75 ' />
+      </div>
       <div className='row row-cols-1 row-cols-md-3 g-4 me-0 ms-1 mt-5 pb-5'>
         {
           blogs.map(blogs => {
