@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useState }from 'react';
 import axios from 'axios';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact(props) {
   const submitHandler = (event) => {
@@ -18,8 +20,11 @@ function Contact(props) {
       comment
     }).then(res => {
       console.log(res);
+      event.target.reset();
+      toast.success('Form submitted successfully');
     }).catch((error) => {
       console.log(error);
+      toast.error('Error submitting form');
     })
   }
   return (
@@ -57,6 +62,7 @@ function Contact(props) {
             </form>
           </div>
         </div>
+        <ToastContainer />
         <div class="me-0 pb-5 d-flex ms-5 mt-4 " id="cf">
           <div class="ms-5 ps-4">
             <p class="text-black-50 fw-semibold text-center"> 20A, Jalan Ros Merah 2/14, Johor Jaya, 81100 Johor Bahru, Johor, Malaysia </p>
