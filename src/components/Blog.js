@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
-function Blog(props) {
+function Blog({setIsApiPending }) {
   let url = "http://127.0.0.1:8000/api/";
   const blogObj = {
     get: "get/blog",
@@ -19,6 +19,7 @@ function Blog(props) {
       console.log(data);
       setBlogData(data);
       setLoader(false);
+      setIsApiPending(false);
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -29,13 +30,14 @@ function Blog(props) {
   }, []);
   return (
     <div>
-  {loader ? (
-    <h3>Loading...</h3>
-  ) : (
+  
     <div className='mt-3'>
       <div>
         <img src={require('./../assests/gifs/blogs.gif')} alt="" className='rounded mx-auto d-block img-fluid w-75 ' />
       </div>
+      {loader ? (
+    <h3>Loading...</h3>
+  ) : (
       <div className='row row-cols-1 row-cols-md-3 g-4 me-0 ms-1 mt-5 pb-5'>
         {blogData && blogData.map((blogs, index) => (
           <div key={index} className=''>
@@ -61,8 +63,9 @@ function Blog(props) {
           </div>
         ))}
       </div>
+      )}
     </div>
-  )}
+  
 </div>
 
   )

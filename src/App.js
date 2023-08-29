@@ -9,10 +9,12 @@ import Blog from "./components/Blog";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Faq from './components/Faq';
+import { useState } from 'react';
 
 
 
 function App() {
+  const [isApiPending, setIsApiPending] = useState(true); 
   return (
     <div>
       <BrowserRouter>
@@ -22,12 +24,13 @@ function App() {
           <Route path='/home' element={<Home></Home>}></Route>
           <Route path='/store' element={<Store></Store>}></Route>
           <Route path='/gallery' element={<Gallery></Gallery>}></Route>
-          <Route path='/blog' element={<Blog></Blog>}></Route>
+          <Route path='/blog' element={<Blog setIsApiPending={setIsApiPending} ></Blog>}></Route>
           <Route path='/about' element={<About></About>}></Route>
           <Route path='/contact' element={<Contact></Contact>}></Route>
           <Route path='/faq' element={<Faq></Faq>}></Route>
         </Routes>
-        <Footer />
+        {!isApiPending && <Footer />}
+        
       </BrowserRouter>
     </div>
 
